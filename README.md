@@ -30,7 +30,7 @@ Five machine learning models were used for the assignment:
 
 ## Assignment Steps
 
-1. **Balanced Class Dataset**: The dataset was converted into a balanced class dataset using ```Random Oversampling``` technique
+1. **Balanced Class Dataset**: The dataset was converted into a balanced class dataset using **Random Oversampling** technique
 
 2. **Sample Creation**: Five samples were created using the sample size detection formula discussed in the class.
 
@@ -39,6 +39,10 @@ Five machine learning models were used for the assignment:
 4. **Accuracy Evaluation**: A table of accuracies was created to compare the performance of each sampling technique on each model.
 
 5. **TOPSIS Analysis**: The TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) method was utilized to determine the best sampling technique based on multiple criteria.
+
+## Best Performing Sampling Technique
+
+After thorough analysis, it was found that **Systematic Sampling** demonstrated the highest accuracy on the credit card fraud detection dataset.
 
 
 ## How to Use
@@ -49,5 +53,6 @@ Five machine learning models were used for the assignment:
    git clone https://github.com/your-username/sampling-assignment.git
 2. Navigate to the project directory:
 
-  ```bash
-  cd sampling-assignment
+   ```bash
+   cd sampling-assignment
+
